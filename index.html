@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="estilos.css"> <!--CARGAR ESTILOS -->
+</head>
+<body>
+	
+<h1>SUDOKU</h1>
+
+
+
+<div class="contenedor">
+
+	<div class="cuadrantes" id="cuadro">
+		<div class="content">
+			<div class="cuadrito"><p class="number"><input type="text" id="dato1" name="numer" class="num" /></p></div>
+			<div class="cuadrito"><p class="number">7</p></div>
+			<div class="cuadrito"><p class="number">5</p></div>
+			
+			<div class="cuadrito"><p class="number"><input type="text" id="dato2" name="numer" class="num" /></p></div>
+			<div class="cuadrito"><p class="number">2</p></div>
+			<div class="cuadrito"><p class="number">3</p></div>
+			
+			<div class="cuadrito"><p class="number">8</p></div>
+			<div class="cuadrito"><p class="number"><input type="text" id="dato3" name="numer" class="num" /></p></div>
+			<div class="cuadrito"><p class="number"><input type="text" id="dato4" name="numer" class="num"/></p></div>
+
+		</div>
+
+	</div>
+
+	<div class="cuadrantes" id="cuadro">
+		
+		<div class="content">
+		
+			<div class="cuadrito"><p class="number"><input type="text" id="dato5" name="numer" class="num" /></p></div>
+			<div class="cuadrito"><p class="number">9</p></div>
+			<div class="cuadrito"><p class="number"><input type="text" id="dato6" name="numer" class="num" /></p></div>
+
+			<div class="cuadrito"><p class="number"><input type="text" id="dato7" name="numer" class="num" /></p></div>
+			<div class="cuadrito"><p class="number">8</p></div>
+			<div class="cuadrito"><p class="number">7</p></div>
+			
+			<div class="cuadrito"><p class="number"><input type="text" id="dato8" name="numer" class="num" /></p></div>
+			<div class="cuadrito"><p class="number">6</p></div>
+			<div class="cuadrito"><p class="number"><input type="text" id="dato9" name="numer" class="num" /></p></div>
+		</div>
+
+
+	</div>
+	
+
+	<div class="cuadrantes" id="cuadro">
+		
+		<div class="content">
+		
+			<div class="cuadrito"><p class="number">8</p></div>
+			<div class="cuadrito"><p class="number"><input type="text" id="dato10" name="numer" class="num"/></p></div>
+			<div class="cuadrito"><p class="number">6</p></div>
+
+			<div class="cuadrito"><p class="number"><input type="text" id="dato11" name="numer" class="num" /></p></div>
+			<div class="cuadrito"><p class="number">4</p></div>
+			<div class="cuadrito"><p class="number"><input type="text" id="dato12" name="numer" class="num" /></p></div>
+			
+			<div class="cuadrito"><p class="number">2</p></div>
+			<div class="cuadrito"><p class="number"><input type="text" id="dato13" name="numer" class="num" /></p></div>
+			<div class="cuadrito"><p class="number">1</p></div>
+		</div>
+
+
+
+	</div>
+
+	<div class="cuadrantes" id="cuadro">
+		<div class="content">
+		
+			<div class="cuadrito"><p class="number">5</p></div>
+			<div class="cuadrito"><p class="number"><input type="text" id="dato14" name="numer" class="num" /></p></div>
+			<div class="cuadrito"><p class="number"><input type="text" id="dato15" name="numer" class="num" /></p></div>
+
+			<div class="cuadrito"><p class="number"><input type="text" id="dato16" name="numer" class="num" /></p></div>
+			<div class="cuadrito"><p class="number">4</p></div>
+			<div class="cuadrito"><p class="number"><input type="text" id="dato17" name="numer" class="num" /></p></div>
+
+			<div class="cuadrito"><p class="number"><input type="text" id="dato18" name="numer" class="num" /></p></div>
+			<div class="cuadrito"><p class="number"><input type="text" id="dato19" name="numer" class="num" /></p></div>
+			<div class="cuadrito"><p class="number">6</p></div>
+		</div>
+	</div>
+	
+
+
+	<div class="cuadrantes" id="cuadro">
+		<div class="content">
+		
+			<div class="cuadrito"><p class="number">7</p></div>
+			<div class="cuadrito"><p class="number"><input type="text" id="dato20" name="numer" class="num" /></p></div>
+			<div class="cuadrito"><p class="number">2</p></div>
+			
+			<div class="cuadrito"><p class="number">8</p></div>
+			<div class="cuadrito"><p class="number"><input type="text" id="dato21" name="numer" class="num" /></p></div>
+			<div class="cuadrito"><p class="number">6</p></div>
+			
+			<div class="cuadrito"><p class="number">9</p></div>
+			<div class="cuadrito"><p class="number"><input type="text" id="dato22" name="numer" class="num" /></p></div>
+			<div class="cuadrito"><p class="number">1</p></div>
+		
+		</div>
+	</div>
+	
+
+	<div class="cuadrantes" id="cuadro">
+		<div class="content">
+		
+			<div class="cuadrito"><p class="number">4</p></div>
+			<div class="cuadrito"><p class="number"><input type="text" id="dato23" name="numer" class="num" /></p></div>
+			<div class="cuadrito"><p class="number"><input type="text" id="dato24" name="numer" class="num"/></p></div>
+			
+			<div class="cuadrito"><p class="number"><input type="text" id="dato25" name="numer" class="num" /></p></div>
+			<div class="cuadrito"><p class="number">2</p></div>
+			<div class="cuadrito"><p class="number"><input type="text" id="dato26" name="numer" class="num" /></p></div>
+			
+			<div class="cuadrito"><p class="number">7</p></div>
+			<div class="cuadrito"><p class="number"><input type="text" id="dato27" name="numer" class="num" /></p></div>
+			<div class="cuadrito"><p class="number">3</p></div>
+			
+		</div>
+	</div>
+
+	<div class="cuadrantes" id="cuadro">
+		<div class="content">
+		
+			<div class="cuadrito"><p class="number">9</p></div>
+			<div class="cuadrito"><p class="number">3</p></div>
+			<div class="cuadrito"><p class="number"><input type="text" id="dato28" name="numer" class="num" /></p></div>
+			
+			<div class="cuadrito"><p class="number"><input type="text" id="dato29" name="numer" class="num" /></p></div>
+			<div class="cuadrito"><p class="number"><input type="text" id="dato30" name="numer" class="num" /></p></div>
+			<div class="cuadrito"><p class="number">1</p></div>
+
+			<div class="cuadrito"><p class="number">7</p></div>
+			<div class="cuadrito"><p class="number"><input type="text" id="dato31" name="numer" class="num" /></p></div>
+			<div class="cuadrito"><p class="number">2</p></div>
+		</div>
+	</div>
+	
+	<div class="cuadrantes" id="cuadro">
+		<div class="content">
+		
+			<div class="cuadrito"><p class="number">4</p></div>
+			<div class="cuadrito"><p class="number">2</p></div>
+			<div class="cuadrito"><p class="number"><input type="text" id="dato32" name="numer" class="num" /></p></div>
+
+			<div class="cuadrito"><p class="number"><input type="text" id="dato33" name="numer" class="num" /></p></div>
+			<div class="cuadrito"><p class="number"><input type="text" id="dato34" name="numer" class="num" /></p></div>
+			<div class="cuadrito"><p class="number">9</p></div>
+
+			<div class="cuadrito"><p class="number">6</p></div>
+			<div class="cuadrito"><p class="number">1</p></div>
+			<div class="cuadrito"><p class="number"><input type="text" id="dato35" name="numer" class="num" /></p></div>
+		</div>
+	</div>
+	
+	<div class="cuadrantes" id="cuadro">
+		<div class="content">
+		
+			<div class="cuadrito"><p class="number"><input type="text" id="dato36" name="numer" class="num" /></p></div>
+			<div class="cuadrito"><p class="number"><input type="text" id="dato37" name="numer" class="num" /></p></div>
+			<div class="cuadrito"><p class="number">7</p></div>
+			
+			<div class="cuadrito"><p class="number">5</p></div>
+			<div class="cuadrito"><p class="number">8</p></div>
+			<div class="cuadrito"><p class="number"><input type="text" id="dato38" name="numer" class="num" /></p></div>
+			
+			<div class="cuadrito"><p class="number">3</p></div>
+			<div class="cuadrito"><p class="number">9</p></div>
+			<div class="cuadrito"><p class="number"><input type="text" id="dato39" name="numer" class="num" /></p></div>
+			
+		</div>
+	</div>
+</div>
+
+<div class="barbutton">
+	<div class="check" id="check"> check</div>
+	<div class="repeat" id="repetir"> repetir</div>
+</div>
+
+<script src="jquery.js"></script>
+<script src="code.js"></script> <!--CARGAR CODIGO PROGRA JAVASCRIPT -->
+</body>
+</html>
